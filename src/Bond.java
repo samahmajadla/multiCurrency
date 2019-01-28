@@ -10,22 +10,6 @@ public class Bond {
         this.price = price;
     }
 
-    public String getInstrument() {
-        return this.instrument;
-    }
-
-    public int getShares() {
-        return this.shares;
-    }
-
-    public Dollar getPrice() {
-        return this.price;
-    }
-
-    public Dollar getTotal() {
-        return this.price.times(this.shares);
-    }
-
     @Override
     public String toString() {
         return "Bond{" +
