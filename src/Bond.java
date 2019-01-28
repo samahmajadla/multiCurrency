@@ -25,4 +25,13 @@ public class Bond {
     public Dollar getTotal() {
         return this.price.times(this.shares);
     }
+
+    @Override
+    public String toString() {
+        return "Bond{" +
+                "instrument='" + instrument + '\'' +
+                ", shares=" + shares +
+                ", price=" + price +
+                '}';
+    }
 }

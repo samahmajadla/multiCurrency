@@ -1,0 +1,1 @@
+Report{bonds=[Bond{instrument='Integral', shares=300, price=Dollar{amount=2.5}}, Bond{instrument='Autonomic', shares=123, price=Dollar{amount=4.38}}]}

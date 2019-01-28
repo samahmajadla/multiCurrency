@@ -27,4 +27,11 @@ public class Dollar {
     public Dollar times(int toMultiply) {
         return new Dollar(amount() * toMultiply);
     }
+
+    @Override
+    public String toString() {
+        return "Dollar{" +
+                "amount=" + amount +
+                '}';
+    }
 }
